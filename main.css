@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #111111;
+}
+
+.calendar {
+  position: relative;
+  width: 200px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0004);
+}
+
+.calendar #month-name {
+  position: relative;
+  background: #ff6331;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 1.9em;
+  font-weight: 700;
+}
+
+.calendar #day-name {
+  margin-top: 20px;
+  font-size: 1.4em;
+  font-weight: 300;
+  color: #999;
+}
+
+.calendar #day-number {
+  font-size: 5em;
+  color: #333333;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.calendar #year {
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  color: #999999;
+  font-weight: 500;
+  line-height: 1em;
+}
+/*# sourceMappingURL=main.css.map */
